@@ -10,4 +10,6 @@ Javabuzz.prototype.says = function(first_argument) {
     { return "Java" }
   else if (first_argument % 5 == 0)
     { return "Buzz" }
+  else
+    { return first_argument }
 };

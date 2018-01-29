@@ -17,4 +17,9 @@ describe('Javabuzz', function() {
     javabuzz = new Javabuzz();
     expect(javabuzz.says(15)).toEqual("JavaBuzz")
   })
+
+  it( 'returns 1 for 1', function(){
+    javabuzz = new Javabuzz();
+    expect(javabuzz.says(1)).toEqual(1)
+  })
 })
